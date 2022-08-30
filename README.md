@@ -1,6 +1,6 @@
 # Calculates and Generates Bounding Boxes Coordinates from the Polygonal Coordinates in JSON Metadata   
 
-이 유틸리티는 2021년 인공지능 학습 데이터 구축 사업의 반려동물 피부질환 데이터에 대하여 JSON 메타데이터의 polygon 정보로부터 bounding box 정보를 생성, 추가합니다.   
+이 유틸리티는 인공지능 학습 데이터 중 폴리곤 객체 검출 가공 데이터를 바운딩박스 객체 검출 모델에 적용하기 위해 JSON 메타데이터의 polygon 정보로부터 bounding box 정보를 생성, 추가합니다.   
 
 본 유틸리티의 저작권은 (주)가치랩스( http://gazzi.ai )에 있습니다.   
 본 프로그램 구동에 필요한 Python 및 부가 라이브러리 각각은 저작권자의 권리를 따릅니다.   
@@ -30,6 +30,26 @@ boundingBox가 있을 경우, 아래의 항목을 추가하여 저장했습니�
 "label": "A1_구진/플라크",
 "type": "box"
 
+## Visual Studio Code를 위한 launch.json 예시
+
+```
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: 현재 파일",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "args": [
+                "./input",
+                "./output"
+            ],
+            "justMyCode": true
+        }
+    ]
+}
+```
 
 ## BoundingBox의 형태 예시)
 ```json
