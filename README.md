@@ -13,7 +13,16 @@ python addData.py 입력경로 출력경로
 ## 설치해야 할 모듈
 1. python version : 3.9.6
 2. python -m pip install --upgrade pip
-2. python -m pip install argparse
+2. python -m pip install argparse    
+
+```
+python -m pip install --upgrade pip
+python -m pip install argparse    
+```
+
+## 동영상
+[디버깅 및 실행](https://youtu.be/Txkp-pkpw8M)    
+
 
 ## ERROR
 ```
