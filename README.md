@@ -23,6 +23,8 @@ python -m pip install argparse
 ## 동영상
 [디버깅 및 실행](https://youtu.be/Txkp-pkpw8M)    
 
+[![디버깅 및 실행](./ref/video.png)](https://youtu.be/Txkp-pkpw8M)
+
 
 ## ERROR
 ```
