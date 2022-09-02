@@ -20,7 +20,7 @@ python -m pip install --upgrade pip
 python -m pip install argparse    
 ```
 
-## 동영상
+## 동영상 (가상환경/디버깅/설명)
 
 [![디버깅 및 실행](./ref/video.png)](https://youtu.be/Txkp-pkpw8M)
 
